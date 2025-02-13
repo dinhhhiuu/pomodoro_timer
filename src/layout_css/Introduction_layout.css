@@ -1,0 +1,19 @@
+.introduction-container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 1200px; 
+    padding: 25px;
+    border-radius: 12px; /* Giảm cong góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: black;
+    background-color: rgb(186, 73, 73);
+    color: white;
+}
+
+.introduction-container h1 {
+    text-align: center;
+}
+
+.introduction-container p {
+    text-align: justify;
+}

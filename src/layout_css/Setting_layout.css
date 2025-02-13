@@ -1,0 +1,138 @@
+/* ========================= */
+/* Căn chỉnh tổng thể cho trang Settings */
+/* ========================= */
+.settings-container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 450px; 
+    padding: 25px;
+    border-radius: 12px; /* Giảm cong góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+  }
+  
+  .settings-container h2 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* ========================= */
+  /* Thiết lập từng phần trong Settings */
+  /* ========================= */
+  .settings-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+  }
+
+  .settings-section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  
+  /* ========================= */
+  /* Tùy chỉnh input chọn màu */
+  /* ========================= */
+
+   .settings-section input[type="color"] {
+    -webkit-appearance: none; /* Xóa kiểu mặc định trên Safari */
+    -moz-appearance: none;
+    appearance: none;
+    
+    width: 28px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%; /* Làm input tròn */
+    padding: 0;
+    overflow: hidden;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-right: 40px;
+  }
+  
+  .settings-section input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0; /* Xóa padding mặc định */
+    border-radius: 50%;
+  }
+  
+  .settings-section input[type="color"]::-webkit-color-swatch {
+    border: none; /* Xóa viền */
+    border-radius: 50%;
+  }
+  
+  .settings-section input[type="color"]:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  /* ========================= */
+  /* Tùy chỉnh input nhập thời gian */
+  /* ========================= */
+  .settings-section input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.2s ease;
+    background-color:#646464;
+  }
+  
+  .settings-section input[type="number"]:focus {
+    border: 1px solid #007bff;
+    outline: none;
+  }
+  
+  /* ========================= */
+  /* Thiết kế nút Save và Reset */
+  /* ========================= */
+  .save-button,
+  .reset-default-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .reset-default-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .reset-default-button:hover {
+    background-color: #c82333;
+  }
+  
