@@ -5,7 +5,7 @@ const Navbar = ({ navColor }) => {
   return (
     <header className="navHead" style={{ backgroundColor: navColor }}>
       <Link to="/" className="logoButton">
-        <img src="/whiteLogo.svg" alt="TopoTimer Logo" className="headLogo" />
+        <img src="whiteLogo.svg" alt="TopoTimer Logo" className="headLogo" />
       </Link>
       <ul className="navbar">
         <li><Link to="/">Home</Link></li> 
